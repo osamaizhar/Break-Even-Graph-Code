@@ -42,7 +42,7 @@ plt.text(units,tr, "TR", color='orange', fontsize=10)
 plt.text(units,fc, "FC", color='green', fontsize=10)
 plt.text(bep-1,tr, "BEP", color='red', fontsize=10)
 plt.text(units,profits[-1]+200, "Profit", color='mediumseagreen', fontsize=10)
-
+#plt.set_title('interpolation=True')
 #plt.fill_between(bep,tr,fc, where=(tr > fc), color='C0', alpha=0.3)
 #plt.fill_between(x, y1, y2, where=(y1 > y2), color='C0', alpha=0.3)
 # plt.fill_between(x, y1, y2, where=(y1 < y2), color='C1', alpha=0.3)
